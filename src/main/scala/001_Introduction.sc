@@ -90,9 +90,11 @@ implicitly[JsonWriter[Person]]
  * Working with type classes in Scala means working with implicit values and
  * implicit parameters.
  *
- * Packaging Implicits
- * any definitions marked implicit in Scala must be placed inside an object or
- * trait rather than at the top level.
+ * There are a few rules we need to know to do this effectively.
  *
+ * - Packaging Implicits
+ * ```any definitions marked `implicit` in Scala must be placed inside an object or
+ * trait rather than at the top level.```
+ * 
  * 
  */
